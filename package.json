@@ -1,0 +1,20 @@
+{
+  "name": "bandys-care-ops",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bandy's Care Ops: gestion de la prise en charge des passagers Ryanair au Maroc (montage 2)",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "nodemailer": "^10.6.1",
+    "pdfjs-dist": "^6.5.438"
+  }
+}

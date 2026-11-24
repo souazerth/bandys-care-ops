@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Disponibilité · Bandy's Care Ops</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    body { background: var(--bg); }
+    .rp { max-width: 520px; margin: 0 auto; padding: 18px 14px 50px; display: flex; flex-direction: column; gap: 14px; }
+    .rp-h { background: var(--navy); color: #fff; border-radius: 14px; padding: 18px; }
+    .rp-h .brand { padding: 0; }
+    .rp-h p { margin: 6px 0 0; color: #C9D2DF; }
+    .rp-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+    .rp-kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 14px; }
+    .rp-kv span { color: var(--muted); }
+    .rp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .rp-ok { background: var(--green-l); color: var(--green); padding: 12px 14px; border-radius: 10px; font-weight: 600; }
+    .rp-closed { background: var(--gray-l); color: var(--ink2); padding: 12px 14px; border-radius: 10px; }
+    .rp form { display: flex; flex-direction: column; gap: 12px; }
+    .rp input[type=number] { font-size: 18px; font-weight: 700; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="rp" id="rp"><div class="spinner"><span></span>Chargement…</div></div>
+  <script src="/reply.js"></script>
+</body>
+</html>
